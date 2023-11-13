@@ -6,7 +6,7 @@ class Ejemplo1 extends StatelessWidget{
     return Center(
       child:  Column(
         children: [
-          Text('Ejemplo5',
+          Text('Ejemplo1',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 30,
