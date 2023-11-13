@@ -29,11 +29,10 @@ class _HomeState extends State<Home> {
         return Ejemplo4();
       case 5:
         return Ejemplo5();
-        case 6:
+      case 6:
         return Ejemplo6();
-        case 7:
+      case 7:
         return Ejemplo7();
-        
     }
   }
 
@@ -110,24 +109,23 @@ class _HomeState extends State<Home> {
               onTap: () {
                 _onSelectItemDrawer(5);
               },
-            ), ListTile(
+            ),
+            /*ListTile(
               leading: Icon(Icons.arrow_forward_ios),
               title: Text('Ejemplo7'),
               onTap: () {
                 _onSelectItemDrawer(7);
               },
-            ),
+            ),*/
 
-
-
-            ListTile(
+            /*ListTile(
               leading: Icon(Icons.arrow_forward_ios),
               title: Text('Ejemplo6'),
               onTap: () {
                 _onSelectItemDrawer(6);
               },
             ),
-            
+            */
           ],
         ),
       ),
