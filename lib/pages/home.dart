@@ -5,6 +5,7 @@ import 'package:navegation_drawer/pages/ejemplo3.dart';
 import 'package:navegation_drawer/pages/ejemplo4.dart';
 import 'package:navegation_drawer/pages/ejemplo5.dart';
 import 'package:navegation_drawer/pages/ejemplo6.dart';
+import 'package:navegation_drawer/pages/ejemplo7.dart';
 import 'package:navegation_drawer/pages/inicio.dart';
 
 class Home extends StatefulWidget {
@@ -30,6 +31,8 @@ class _HomeState extends State<Home> {
         return Ejemplo5();
         case 6:
         return Ejemplo6();
+        case 7:
+        return Ejemplo7();
         
     }
   }
@@ -107,7 +110,15 @@ class _HomeState extends State<Home> {
               onTap: () {
                 _onSelectItemDrawer(5);
               },
+            ), ListTile(
+              leading: Icon(Icons.arrow_forward_ios),
+              title: Text('Ejemplo7'),
+              onTap: () {
+                _onSelectItemDrawer(7);
+              },
             ),
+
+
 
             ListTile(
               leading: Icon(Icons.arrow_forward_ios),
@@ -116,6 +127,7 @@ class _HomeState extends State<Home> {
                 _onSelectItemDrawer(6);
               },
             ),
+            
           ],
         ),
       ),
